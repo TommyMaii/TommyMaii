@@ -128,7 +128,7 @@ const tommy = {
 <br>
 
 *"Advancing a room advances the monster too."*
-**— design note that turned out to also be about shipping**
+**- design note that turned out to also be about shipping**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e8b25a,50:3d2b1f,100:0d1117&height=120&section=footer" width="100%" alt="" />
 
