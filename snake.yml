@@ -1,0 +1,50 @@
+# Save as: .github/workflows/snake.yml  (inside the TommyMaii/TommyMaii repo)
+# Generates the contribution-grid snake animation, then push it to an
+# "output" branch that the README can point at.
+
+name: Generate snake animation
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # daily at 04:00 UTC
+  workflow_dispatch:       # lets you run it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate snake
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#e8b25a
+            dist/snake-light.svg?palette=github-light&color_snake=#b8860b
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# Then drop this into README.md wherever you want the snake:
+#
+# <picture>
+#   <source media="(prefers-color-scheme: dark)"
+#           srcset="https://raw.githubusercontent.com/TommyMaii/TommyMaii/output/snake-dark.svg" />
+#   <img alt="contribution snake"
+#        src="https://raw.githubusercontent.com/TommyMaii/TommyMaii/output/snake-light.svg" />
+# </picture>
+#
+# It will 404 until the workflow has run once — trigger it manually from the
+# Actions tab right after committing.
