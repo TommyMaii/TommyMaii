@@ -120,10 +120,8 @@ const tommy = {
 ## 🎲 Off the clock
 
 - 🃏 Run a card shop, so I get to call "checking singles prices" *research*
-- 📚 Wrote a web novel once — **259 chapters, 1.4M views**. Thinking about writing again.
 - 🎤 Sing. Currently wrestling with Vietnamese ballads.
 - ⚽ Managing Sandefjord in Football Manager 26 on a budget that would make a bank cry.
-- 🤖 Slightly obsessed with the line between vibe coding and actual engineering with agents.
 
 <div align="center">
 
