@@ -16,8 +16,7 @@
 ```ts
 const tommy = {
   role:       "Fullstack developer @ Sastech",
-  shipping:   "HVAC/IoT platform — microservices, mostly on Heroku",
-  sideQuest:  "Board chair @ HatamonTCG AS — Norwegian TCG retail on Shopify",
+  sideQuest:  "Board chair @ HatamonTCG AS Norwegian TCG retail on Shopify",
   stack:      ["TypeScript", "React", "Node.js", "Go"],
   learning:   ["Azure", "Terraform", "Kafka", "Kubernetes"],
   speaks:     ["Norsk", "English", "Tiếng Việt"],
