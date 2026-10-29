@@ -68,7 +68,6 @@
 ## 📈 Numbers
 
 <p align="center">
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TommyMaii&theme=github_dark" alt="top languages" />
   <img height="165" src="https://streak-stats.demolab.com?user=TommyMaii&hide_border=true&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&currStreakNum=F0FDFA&sideNums=F0FDFA&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="streak" />
 </p>
 
