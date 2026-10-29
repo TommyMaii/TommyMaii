@@ -42,7 +42,7 @@
 + Shipping fullstack features at Sastech
 + Running HatamonTCG — card shop, kiosk and webshop
 + Learning cloud infra: Azure · Terraform · Kafka · Kubernetes
-+ Singing Vietnamese ballads (improving)
++ Singing Vietnamese ballads (badly, improving)
 - Free time
 - Sleep before midnight
 ```
@@ -68,7 +68,7 @@
 ## 📈 Numbers
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TommyMaii&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=2DD4BF&text_color=C9D1D9" alt="top languages" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TommyMaii&theme=github_dark" alt="top languages" />
   <img height="165" src="https://streak-stats.demolab.com?user=TommyMaii&hide_border=true&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&currStreakNum=F0FDFA&sideNums=F0FDFA&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="streak" />
 </p>
 
@@ -82,7 +82,7 @@
     <td>🎤</td><td>Sing — currently wrestling with Vietnamese ballads</td>
   </tr>
   <tr>
-    <td>⚽</td><td>Managing Sandefjord in Football Manager on a budget that would make a bank cry</td>
+    <td>🎮</td><td>Deep in Wardogs right now — clearing the calendar for GTA 6 season</td>
   </tr>
 </table>
 
