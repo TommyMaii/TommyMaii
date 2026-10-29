@@ -1,134 +1,90 @@
-<div align="center">
+<!-- ░░ header ░░ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:115E59,100:2DD4BF&height=190&section=header&text=Tommy%20Mai&fontSize=56&fontColor=F0FDFA&fontAlignY=36&desc=fullstack%20%C2%B7%20card%20shop%20%C2%B7%20gamedev%20after%20dark&descAlignY=58&descSize=16&animation=fadeIn" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:3d2b1f,100:e8b25a&height=170&section=header&text=Tommy%20Mai&fontSize=48&fontColor=f0e6d2&animation=fadeIn&fontAlignY=34&desc=fullstack%20by%20day%20%E2%80%A2%20gamedev%20by%20night%20%E2%80%A2%20card%20shop%20in%20between&descAlignY=56&descSize=15" width="100%" alt="Tommy Mai" />
+<p align="center">
+  <a href="https://github.com/TommyMaii">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1400&color=2DD4BF&center=true&vCenter=true&width=560&lines=Fullstack+developer+%40+Sastech;Board+chair+%40+HatamonTCG+AS;TypeScript+%C2%B7+React+%C2%B7+Node.js+%C2%B7+Go;Snakker+norsk+%C2%B7+English+%C2%B7+Ti%E1%BA%BFng+Vi%E1%BB%87t" alt="typing intro" />
+  </a>
+</p>
 
-[![Sandefjord](https://img.shields.io/badge/Sandefjord-Norway-e8b25a?style=for-the-badge&logo=googlemaps&logoColor=0d1117&labelColor=0d1117)](#)
-[![Sastech](https://img.shields.io/badge/@Sastech--Development-161b22?style=for-the-badge&logo=github&logoColor=e8b25a)](https://github.com/Sastech-Development)
-[![HatamonTCG](https://img.shields.io/badge/HatamonTCG-AS-e8b25a?style=for-the-badge&logo=shopify&logoColor=0d1117&labelColor=0d1117)](https://YOUR-SHOP-URL)
-![Visitors](https://komarev.com/ghpvc/?username=TommyMaii&color=e8b25a&style=for-the-badge&label=VISITORS)
+<p align="center">
+  <img src="https://img.shields.io/badge/Sandefjord-Norway-2DD4BF?style=flat-square&labelColor=0F172A" />
+  <a href="https://github.com/Sastech-Development"><img src="https://img.shields.io/badge/@Sastech--Development-0F172A?style=flat-square&logo=github&logoColor=2DD4BF" /></a>
+  <img src="https://img.shields.io/badge/HatamonTCG-AS-2DD4BF?style=flat-square&labelColor=0F172A" />
+  <img src="https://komarev.com/ghpvc/?username=TommyMaii&label=visitors&color=2DD4BF&style=flat-square" />
+</p>
 
-</div>
+<br />
 
----
-
-## `whoami`
-
-```ts
-const tommy = {
-  role:       "Fullstack developer @ Sastech",
-  sideQuest:  "Board chair @ HatamonTCG AS Norwegian TCG retail on Shopify",
-  stack:      ["TypeScript", "React", "Node.js", "Go"],
-  learning:   ["Azure", "Terraform", "Kafka", "Kubernetes"],
-  speaks:     ["Norsk", "English", "Tiếng Việt"],
-} as const;
-```
-
----
-
-## ⛏️ Currently descending
-
-> ### **Deep Below** — a pixel-art roguelike about greed and a thing behind you
->
-> You go down. You mine. Something unkillable follows, one room at a time.
-> Every extra swing is a room it gains on you. **Time is the currency.**
-
-<table>
-<tr>
-<td><b>🕯️ The hook</b></td>
-<td>Room-based descent, real-time mining, and a pursuer called <b>the Warden</b> — a shrouded silhouette with glowing red eyes that never stops walking toward you.</td>
-</tr>
-<tr>
-<td><b>🏕️ Meta layer</b></td>
-<td>One growing camp instead of a town builder. Every building you raise has to earn its place in the run.</td>
-</tr>
-<tr>
-<td><b>⚙️ How it's built</b></td>
-<td>Staged "gauntlet" sessions — long unattended agent runs with hard acceptance gates, then I playtest and decide whether the next stage unlocks.</td>
-</tr>
-<tr>
-<td><b>🎯 Win condition</b></td>
-<td>Ship it on Steam. For real.</td>
-</tr>
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <h3>💼 Day</h3>
+      Fullstack on an HVAC / IoT platform<br />
+      <sub>microservices · TypeScript · Go · Heroku</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>🃏 Side quest</h3>
+      Board chair of a TCG shop<br />
+      <sub>Shopify · ops · marketing · Sandefjord</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>🌙 Night</h3>
+      Building games for fun<br />
+      <sub>LÖVE · Flutter · whatever ships</sub>
+    </td>
+  </tr>
 </table>
 
-<details>
-<summary><b>Progress log</b> (click to descend)</summary>
+## `git diff --stat tommy`
 
-<br>
+```diff
++ Shipping fullstack features at Sastech
++ Running HatamonTCG — card shop, kiosk and webshop
++ Learning cloud infra: Azure · Terraform · Kafka · Kubernetes
++ Singing Vietnamese ballads (improving)
+- Free time
+- Sleep before midnight
+```
 
-| Stage | What it added | Gate |
-|:--|:--|:--|
-| 0 | Skeleton, replay harness, mock screen | ✅ |
-| 1 | The chase frame | ✅ 27/27 |
-| 2 | Mining, ore types, carry weight, dash | ✅ |
-| 3 | Descent feel — jump-down holes | ✅ 51/51 |
-| 4 | Warden presence + Last Stand | ✅ |
-| 5 | *The Mine Bites Back* — critters, gadgets, vault chambers | 🔨 in progress |
+## 🧰 Stack
 
-</details>
+<p align="center">
+  <sub><b>DAILY DRIVERS</b></sub><br /><br />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,react,nodejs,go,heroku" /></a>
+</p>
 
----
+<p align="center">
+  <sub><b>ALSO SHIPPED WITH</b></sub><br /><br />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,cs,dart,flutter,lua" /></a><br />
+  <img src="https://img.shields.io/badge/Shopify-0F172A?style=flat-square&logo=shopify&logoColor=95BF47" />
+</p>
 
-## 🧰 Toolbelt
+<p align="center">
+  <sub><b>CURRENTLY DIGGING INTO</b></sub><br /><br />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=azure,terraform,kafka,kubernetes" /></a>
+</p>
 
-<div align="center">
+## 📈 Numbers
 
-**Daily drivers**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
-
-**Also shipped with**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Lua](https://img.shields.io/badge/L%C3%96VE-000000?style=flat-square&logo=lua&logoColor=2C2D72)
-![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white)
-
-**Digging into**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
-</div>
-
----
-
-## 📊 The dig log
-
-<div align="center">
-
-<img height="165" alt="stats" src="https://github-readme-stats.vercel.app/api?username=TommyMaii&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=e8b25a&icon_color=e8b25a&text_color=c9d1d9" />
-<img height="165" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TommyMaii&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=e8b25a&text_color=c9d1d9" />
-
-<img width="100%" alt="streak" src="https://streak-stats.demolab.com?user=TommyMaii&hide_border=true&background=0d1117&stroke=30363d&ring=e8b25a&fire=e8b25a&currStreakLabel=e8b25a&currStreakNum=f0e6d2&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e" />
-
-<img width="100%" alt="activity" src="https://github-readme-activity-graph.vercel.app/graph?username=TommyMaii&bg_color=0d1117&color=e8b25a&line=e8b25a&point=f0e6d2&area=true&hide_border=true" />
-
-</div>
-
----
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TommyMaii&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=2DD4BF&text_color=C9D1D9" alt="top languages" />
+  <img height="165" src="https://streak-stats.demolab.com?user=TommyMaii&hide_border=true&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&currStreakNum=F0FDFA&sideNums=F0FDFA&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" alt="streak" />
+</p>
 
 ## 🎲 Off the clock
 
-- 🃏 Run a card shop, so I get to call "checking singles prices" *research*
-- 🎤 Sing. Currently wrestling with Vietnamese ballads.
-- ⚽ Managing Sandefjord in Football Manager 26 on a budget that would make a bank cry.
+<table>
+  <tr>
+    <td>🃏</td><td>Run a card shop, so "checking singles prices" counts as research</td>
+  </tr>
+  <tr>
+    <td>🎤</td><td>Sing — currently wrestling with Vietnamese ballads</td>
+  </tr>
+  <tr>
+    <td>⚽</td><td>Managing Sandefjord in Football Manager on a budget that would make a bank cry</td>
+  </tr>
+</table>
 
-<div align="center">
-
-<br>
-
-*"Advancing a room advances the monster too."*
-**- design note that turned out to also be about shipping**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e8b25a,50:3d2b1f,100:0d1117&height=120&section=footer" width="100%" alt="" />
-
-</div>
+<!-- ░░ footer ░░ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2DD4BF,50:115E59,100:0F172A&height=110&section=footer" />
